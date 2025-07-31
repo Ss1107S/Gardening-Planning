@@ -1,127 +1,113 @@
 body{
-    color: green;
-    border-radius: 10px;
     background-color: beige;
-    padding-bottom: 20px;
+    color: green;
 }
 
+/*--heading--*/
 .heading{
     background-color: yellowgreen;
-    border-radius: 10px;
-    margin: 0 10px 20px 10px;
+    height: 70px;
+}
+
+.heading h1{
     text-align: center;
-    height: 80px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 12px;
 }
 
-/*--small--*/
-.small{
-    border-radius: 10px;
-    border: 1.5px solid green;
+/*--cards--*/
+.cards{
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 1rem 4rem;
+}
+
+.first_paragraph{
+    flex: 1;
+}
+
+.first_paragraph .second_line{
+    margin-left: 40px;
+}
+
+.first_paragraph .third_line{
+    padding-left: 60px;
+}
+
+.first_paragraph h3{
+    margin-top: 100px;
+}
+
+.cards .cards_buttons{
+    display: flex;
+    height: 40px;
+    gap: 40px;
+    margin-top: 420px;
+    margin-left: -350px;
+}
+
+.cards .cards_buttons button{
+    padding: 10px 20px;
+    color: green;
+    border-radius: 5px;
+    border: 1.5px solid green;
+    background-color: beige;
+}
+
+.cards .cards_buttons  button:hover{
+    border-color: yellowgreen;
+}
+
+.cards .cards_img{
+    max-width: 100%;
+    object-fit: scale-down;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.cards img{
+    padding-top: 60px;
+}
+
+/*--information--*/
+.information .pictures{
+    display: flex;
     flex-wrap: wrap;
+    gap: 18px;
+    padding-top: 60px;
+    margin-left: 15px;
 }
 
-.small > div{
-    flex: 1 1 0%;
-    background-color: beige;
-    padding: 20px 20px;
-    border-radius: 10px;
+.pictures img{
+    width: 130px;
 }
 
-.smallcards1{
+.information .main_text{
+    margin: 80px 60px 40px 100px;
+}
+
+.information .characteristics{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.information .button{
     display: flex;
-    width: 100%;
-    gap: 10px;
+    justify-content: center;
 }
 
-.smallcards2{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-}
-
-.small button{
+.information button{
     border-radius: 10px;
-    border: 1.5px solid green;
+    border: 2px solid green;
     background-color: beige;
-    width: 100%;
+    width: 30%;
+    margin-left: 100px;
+    margin-bottom: 60px;
     color: green;
 }
 
-/*--average--*/
-.average{
-    border-radius: 10px;
-    border: 1.5px solid green;
-    display: flex;
+.information .button1{
     margin-left: 20px;
-    margin-right: 20px;
-    flex-wrap: wrap;
 }
 
-.average > div{
-    flex: 1 1 0%;
-    background-color: beige;
-    padding: 20px 20px;
-    border-radius: 10px;
-}
-
-.averagecards1{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-}
-
-.averagecards2{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-}
-
-.average button{
-    border-radius: 10px;
-    border: 1.5px solid green;
-    background-color: beige;    
-    width: 100%;
-    color: green;
-}
-
-/*--large--*/
-.large{
-    border-radius: 10px;
-    border: 1.5px solid green;
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-wrap: wrap;
-}
-
-.large > div{
-    flex: 1 1 0%;
-    background-color: beige;
-    padding: 20px 20px;
-    border-radius: 10px;
-}
-
-.largecards1{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-}
-
-.largecards2{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-}
-
-.large button{
-    border-radius: 10px;
-    border: 1.5px solid green;
-    background-color: beige;    
-    width: 100%;
-    color: green;
+.information button:hover{
+    background-color: yellowgreen;
 }
