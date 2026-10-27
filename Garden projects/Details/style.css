@@ -1,0 +1,113 @@
+body{
+    background-color: beige;
+    color: green;
+}
+
+/*--heading--*/
+.heading{
+    background-color: yellowgreen;
+    height: 70px;
+}
+
+.heading h1{
+    text-align: center;
+    padding-top: 12px;
+}
+
+/*--cards--*/
+.cards{
+    display: flex;
+    padding: 1rem 4rem;
+}
+
+.first_paragraph{
+    flex: 1;
+}
+
+.first_paragraph .second_line{
+    margin-left: 40px;
+}
+
+.first_paragraph .third_line{
+    padding-left: 60px;
+}
+
+.first_paragraph h3{
+    margin-top: 100px;
+}
+
+.cards .cards_buttons{
+    display: flex;
+    height: 40px;
+    gap: 40px;
+    margin-top: 420px;
+    margin-left: -350px;
+}
+
+.cards .cards_buttons button{
+    padding: 10px 20px;
+    color: green;
+    border-radius: 5px;
+    border: 1.5px solid green;
+    background-color: beige;
+}
+
+.cards .cards_buttons  button:hover{
+    border-color: yellowgreen;
+}
+
+.cards .cards_img{
+    max-width: 100%;
+    object-fit: scale-down;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.cards img{
+    padding-top: 60px;
+}
+
+/*--information--*/
+.information .pictures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding-top: 60px;
+    margin-left: 15px;
+}
+
+.pictures img{
+    width: 130px;
+}
+
+.information .main_text{
+    margin: 80px 60px 40px 100px;
+}
+
+.information .characteristics{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.information .button{
+    display: flex;
+    justify-content: center;
+}
+
+.information button{
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: beige;
+    width: 30%;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    color: green;
+}
+
+.information .button1{
+    margin-left: 20px;
+}
+
+.information button:hover{
+    background-color: yellowgreen;
+}
