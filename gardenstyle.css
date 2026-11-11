@@ -1,0 +1,114 @@
+.garden{
+    height: 1350px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgb(219, 241, 176);
+}
+
+.heading{
+    background-color: yellowgreen;
+   border-radius: 10px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.first-line{
+    text-align: right;
+    border-radius: 10px;
+    border: 2px solid green;
+    margin: 0 47px;
+}
+
+.first-line button{
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: rgb(245, 240, 97);
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.second-line{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid green;
+    margin: 0 10px;
+}
+
+.second-line button{
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: rgb(245, 240, 97);    
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.third-line{
+    border-radius: 10px;
+    border: 2px solid green;
+    margin: 0 5px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.third-line button{
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: rgb(245, 240, 97);    
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.third-line .first-picture{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+.third-line .second-picture{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+
+.third-line .third-picture{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+
+.third-line .fouth-picture{
+    position: absolute;
+    top: 280px;
+    left: 0px;
+}
+
+.third-line .fith-picture{
+    position: absolute;
+    top: 280px;
+    left: 300px;
+}
+
+.third-line .sixth-picture{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+}
+
+.third-line .seventh-picture{
+    position: absolute;
+    top: 70px;
+    left: 880px;
+}
+.third-line .eigth-picture{
+    position: absolute;
+    top: 495px;
+    left: 0px;
+}
+.third-line .ninth-picture{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.third-line .tenth-picture{
+    position: absolute;
+    top: 520px;
+    left: 600px;
+}

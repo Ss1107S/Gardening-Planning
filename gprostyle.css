@@ -1,0 +1,127 @@
+body{
+    color: green;
+    border-radius: 10px;
+    background-color: beige;
+    padding-bottom: 20px;
+}
+
+.heading{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*--small--*/
+.small{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.small > div{
+    flex: 1 1 0%;
+    background-color: beige;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.smallcards1{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.smallcards2{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.small button{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    background-color: beige;
+    width: 100%;
+    color: green;
+}
+
+/*--average--*/
+.average{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.average > div{
+    flex: 1 1 0%;
+    background-color: beige;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.averagecards1{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.averagecards2{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.average button{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    background-color: beige;    
+    width: 100%;
+    color: green;
+}
+
+/*--large--*/
+.large{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.large > div{
+    flex: 1 1 0%;
+    background-color: beige;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.largecards1{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.largecards2{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.large button{
+    border-radius: 10px;
+    border: 1.5px solid green;
+    background-color: beige;    
+    width: 100%;
+    color: green;
+}
